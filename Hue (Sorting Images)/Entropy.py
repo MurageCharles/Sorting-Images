@@ -20,16 +20,7 @@ def get_entropy_of_hue(image):
     return entropy_of_hue
 
 
-def divide_images(images):
-    """
-    Divides the images based on different hue characteristics.
 
-    Args:
-        images: A list of NumPy arrays representing images.
-
-    Returns:
-        A dictionary containing the divided images based on different hue characteristics.
-    """
 
     divided_images = {
         'entropy': [],
